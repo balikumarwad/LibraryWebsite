@@ -1,0 +1,1091 @@
+<body>
+    <h2>This is a HTML Form</h2>
+    <form action="backend.php">
+        <label for="name">Name</label>
+        <div>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <div>
+            Role:<input type="text" name="myRole">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="myEmail">
+        </div>
+        <br>
+        <div>
+            Date:<input type="date" name="myDate">
+        </div>
+        <br>
+        <div>
+            Bonus:<input type="number" name="myBonus">
+        </div>
+        <br>
+        <div>
+            Are you elligble?<input type="checkbox" name="myElligibility" checked>
+        </div>
+        <br>
+        <div>
+            Male:<input type="radio" name="myGender"> Female:<input type="radio" name="myGender">
+            Other:<input type="radio" name="myGender">
+        </div>
+        <br>
+        <div>
+            Write about yourself: <br><textarea name="myText" cols="90" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="car">Car</label>
+            <select name="myCar" id="car">
+                <option value="ford">Ford</option>
+                <option value="bmw" selected>BMW</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+
+    </form>
+</body>
+<body>
+    <strong style="border: 2px solid red;">This is a paragraph</strong> <a style="border: 2px solid blue;">This is also a paragraph</a>
+    <span style="border: 2px solid red;">This is a span</span> <span style="border: 2px solid red;">This is also a span</span>
+    <img src="sangam.jpg" alt="Error">
+</body>
+<body>
+    <h3>Ids and Classes in HTML</h3>
+    <div id="mainbox" class="redBg blackBorder">
+        this is mainbox
+    </div>
+    <span class="redBg"></span>
+    <!-- Emmet -->
+     <!-- Div as default in emmet -->
+      <div class="blackBorder"></div>
+     <!-- Multiple Elements -->
+  <span class="myFirst myclass2 myclass3">First</span>
+  <span class="myFirst myclass2 myclass3">Second</span>
+  <span class="myFirst myclass2 myclass3">Third</span>
+  <span class="myFirst myclass2 myclass3">Fourth</span>
+</body>
+<body>
+    <div class="container">
+        <p>This is a paragraph</p>
+    </div>
+    <div class="container">
+        <p>This is another &nbsp; paragraph</p>
+        <p>paragraph is written like this &lt;p&gt;</p>
+        <p>pound is written like this &pound;</p>
+        <p>Copyright is written like this &copy;</p>
+    </div>
+</body>
+<style>
+    p{
+        font-family:Ubuntu;
+        font-size: 53px; /*1px=1/96th of inch*/
+        line-height: 1.2em;
+    }
+    span{
+        font-weight: bold;
+        font-style: italic;
+    }
+</style>
+<body>
+    <h4>CSS Fonts</h4>
+    <p>Lets play with <span>fonts </span> its very exciting.</p>
+</body>
+<style>
+    #firstPara{
+        color: indigo; /* color by name*/
+    }
+    #secondPara{
+        color: rgb(33, 163, 214); /* color by rgb*/
+    }
+    #thirdPara{
+        color: rgba(25, 179, 25, 0.897);
+        background-color: #ff4532; /*Hex value*/
+    }
+</style>
+<body>
+    <h3>This is my first box</h3>
+    <p id="firstPara">This is a paragraph from first box</p>
+
+    <h3>This is my second box</h3>
+    <p id="secondPara">This is a paragraph from second box</p>
+    <h3>This is my third box</h3>
+    <p id="thirdPara">This is a paragraph from third box</p>
+</body>
+
+
+<style>
+    #firstPara{
+        background-color: yellowgreen;
+        height: 120px;
+        width: 333px;
+        border: 2px solid gray;
+        /* border-width: 5px;
+        border-color: gray;
+        border-style: solid; */
+        border-radius: 25px;
+    }
+    #secondPara{
+        background-color: yellowgreen;
+        height: 120px;
+        width: 333px;
+        border-top: 2px solid rgb(221, 20, 194);
+        border-bottom: 2px solid rgb(226, 12, 41);
+        border-right: 2px solid rgb(21, 173, 161);
+        border-left: 2px solid rgb(247, 205, 21);
+        border-top-left-radius: 5px ;
+        border-bottom-left-radius: 15px ;
+        border-top-right-radius: 7px ;
+        border-bottom-right-radius: 9px ;
+    }
+    #thirdPara{
+        height: 600px;
+        width: 500px;
+        background-image: url(https://scontent.fktm3-1.fna.fbcdn.net/v/t39.30808-1/438305466_122143455752161865_5959398470891118340_n.jpg?stp=dst-jpg_p200x200&_nc_cat=101&ccb=1-7&_nc_sid=0ecb9b&_nc_ohc=rAhAIf4T_pIQ7kNvgF6ayQi&_nc_ht=scontent.fktm3-1.fna&oh=00_AYCxeskXknwNEhbwJp8snYyUW611C6OtqqRKSxgg_ayDYQ&oe=6689F880);
+        border: 2px solid rebeccapurple;
+        background-repeat: no-repeat;
+        background-position:center top ;
+        
+    }
+</style>
+</head>
+<body>
+<h3>This is heading</h3>
+<p id="firstPara">This is paragraph</p>
+<h3>This is heading</h3>
+<p id="secondPara">This is second paragraph</p>
+<h3>This is heading</h3>
+<p id="thirdPara">This is third paragraph</p>
+</body>
+
+
+<body>
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia sunt doloribus nihil, suscipit quia deserunt veritatis harum quo in blanditiis!</p>
+    </div>
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="second">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia sunt doloribus nihil, suscipit quia deserunt veritatis harum quo in blanditiis!</p>
+    </div>
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="third">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia sunt doloribus nihil, suscipit quia deserunt veritatis harum quo in blanditiis!</p>
+    </div>
+</body>
+<style>
+    .container{
+        background-color:rgb(113 210 30);
+        border: 3px solid rgb(50 68 42);
+    }
+</style>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        font-family: "Ubuntu", sans-serif;
+    }
+    h1{
+        margin: 23px auto;
+        width: 357px;
+    }
+    .container{
+        width: 900px;
+        border: 2px solid rgba(240, 185, 177, 0.61);
+        margin: auto;
+        background: #c6cab5;
+    }
+    .items{
+        border: 2px solid brown;
+        background-color: rgb(190, 241, 190);
+        padding: 12px 5px;
+        margin: 8px 5px;
+    }
+    #fruits{
+        float: left;
+        width: 48%;
+    }
+    #Computers{
+        float: left;
+        width: 48%;
+    }
+    #Stationary{
+        clear: both;
+        width: 100%;
+    }
+    p{
+        text-align: justify;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>
+        Welcome to My Store
+    </h1>
+    <div id="fruits" class="items">
+        <h3>Fruits</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos molestiae voluptatibus consectetur minus similique at totam. Veniam aspernatur ratione repudiandae minima, quam rem debitis magni architecto veritatis impedit ea maiores mollitia quod officiis voluptatum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique dolores doloribus placeat at rem quod neque ab quia error, soluta dolore et eos, esse nobis ea reprehenderit, ut quaerat commodi amet excepturi enim magnam.</p>
+    </div>
+    <div id="Computers" class="items">
+        <h3>Computers</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos molestiae voluptatibus consectetur minus similique at totam. Veniam aspernatur ratione repudiandae minima, quam rem debitis magni architecto veritatis impedit ea maiores mollitia quod officiis voluptatum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos ad ipsum omnis, vero rem rerum aliquam. Repudiandae assumenda ipsam itaque placeat deserunt, accusamus soluta unde, quaerat officia totam voluptatem laboriosam in. Quis, consectetur tempora.</p>
+    </div>
+    <div id="Stationary" class="items">
+        <h3>Stationary</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos molestiae voluptatibus consectetur minus similique at totam. Veniam aspernatur ratione repudiandae minima, quam rem debitis magni architecto veritatis impedit ea maiores mollitia quod officiis voluptatum.</p>
+    </div>
+    <div id="glasses" class="items">
+        <h3>Stationary</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos molestiae voluptatibus consectetur minus similique at totam. Veniam aspernatur ratione repudiandae minima, quam rem debitis magni architecto veritatis impedit ea maiores mollitia quod officiis voluptatum.</p>
+    </div>
+</div>
+
+</body>
+
+
+
+<style>
+    .container{
+        border: 2px solid rgb(248, 149, 19);
+        background-color: lightgreen;
+        width: 654px;
+        padding: 34px;
+        margin: 34px auto;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    a:hover{
+        color: rgb(0, 0, 0);
+        background-color: rgb(142, 0, 236);
+    }
+    a:visited{
+        background-color: rgb(100, 100, 31);
+    }
+    a:active{
+        background-color: rgb(26, 83, 240);
+    }
+    .btn{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        background-color: rgb(233, 111, 23);
+        border: none;
+        padding: 12px;
+        font-size: 12px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .btn:hover{
+        color: gold;
+        background-color: rgb(54, 54, 54);
+        border: 2px solid black;
+    }
+</style>
+<body>
+    <div class="container" id="cont1">
+        <h3>This is my heading</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam natus nostrum architecto itaque distinctio officia, ipsa odio optio, non fugiat, enim sunt debitis ipsum culpa nemo reiciendis minima inventore provident omnis dolorem odit sint?</p>
+        <a href="https://web.com" class="btn">Read More</a>
+        <button class="btn">Contact Us</button>
+    </div>
+</body>
+
+
+<style>
+    .navbar{
+        background-color: rgb(236, 119, 10);
+        border-radius: 38px;
+    }
+    .navbar ul{
+        overflow: auto;
+    }
+    .navbar li{
+        float: left;
+        list-style: none;
+        margin: 18px 23px;
+    }
+    .navbar li a {
+        padding: 3px 3px;
+        text-decoration: none;
+        color: bisque;
+    }
+    .navbar li a:hover{
+        color: rgb(255, 81, 0);
+    }
+    .search{
+        float: right;
+        color: bisque;
+        padding: 15px 64px
+    }
+    .search input{
+        border: 2px solid black;
+        border-radius: 14px;
+        padding: 3px 15px;
+        width: 140px;
+    }
+</style>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact Us</a></li>
+               <div class="search">
+               <input type="text" name="search" id="search" placeholder="Seach this website">
+               </div>
+            </ul>
+        </nav>
+    </header>
+</body>
+
+
+<!-- CSS Display Property -->
+
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    header{
+        border: 2px solid red;
+        width: 1200px;
+        margin: auto;
+    }
+    img{
+        width: 50px;
+        display: block;
+        margin: auto;
+    }
+    h3{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px;
+        text-align: center;
+    }
+    .box{
+        background-color: burlywood;
+        border: 5px solid rgb(68, 66, 66);
+        margin: 5px 0px;
+        padding:20px;
+        width: 33%;
+        display: inline-block;
+    }
+    .container{
+        margin: auto;
+        width: 1200px;
+    }
+</style>
+<body>
+    <header class="top">
+        <img src="https://scontent.fktm3-1.fna.fbcdn.net/v/t39.30808-1/438305466_122143455752161865_5959398470891118340_n.jpg?stp=dst-jpg_p200x200&_nc_cat=101&ccb=1-7&_nc_sid=0ecb9b&_nc_ohc=rAhAIf4T_pIQ7kNvgF6ayQi&_nc_ht=scontent.fktm3-1.fna&oh=00_AYCxeskXknwNEhbwJp8snYyUW611C6OtqqRKSxgg_ayDYQ&oe=6689F880" alt="">
+       <h3> Welcome To Sangam's Blog</h3>
+    </header>
+    <div class="container">
+        <div class="box">
+            <h4>Heading</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum ea porro fugiat velit error, pariatur dolore voluptatibus assumenda magni tenetur perspiciatis! Aut doloremque repudiandae vel ad veritatis exercitationem dolor. Totam fuga aut recusandae odit hic laborum suscipit, obcaecati eveniet unde natus, magnam vitae ad?</p>
+        </div>
+        <div class="box">
+            <h4>Heading</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum ea porro fugiat velit error, pariatur dolore voluptatibus assumenda magni tenetur perspiciatis! Aut doloremque repudiandae vel ad veritatis exercitationem dolor. Totam fuga aut recusandae odit hic laborum suscipit, obcaecati eveniet unde natus, magnam vitae ad?</p>
+        </div>
+        <div class="box">
+            <h4>Heading</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum ea porro fugiat velit error, pariatur dolore voluptatibus assumenda magni tenetur perspiciatis! Aut doloremque repudiandae vel ad veritatis exercitationem dolor. Totam fuga aut recusandae odit hic laborum suscipit, obcaecati eveniet unde natus, magnam vitae ad?</p>
+        </div>
+    </div>
+</body>
+
+
+CSS position
+<style>
+    .container{
+        border: 2px solid black;
+        background-color: khaki;
+        height: 3444px;
+    }
+    .box{
+        display: inline-block;
+        border: 2px solid red;
+        width: 120px;
+        height: 120px;
+        margin: 3px;
+    }
+    #box3{
+        /* relative:Positons the element relative to its normal position and leaves a gap at its normal position */
+        /* position: relative; */
+
+        /* absolute: Positons the element relative to the position of its first parent  */
+      
+        /* position: fixed; */
+        /* fixed:Positons the element position relative to its browser window */
+
+        /* position: fixed;
+        right: 4px;
+        bottom: 4px; */
+        
+        /* sticky */
+        position: sticky;
+        top: 3px;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="box" id="box1">1</div>
+        <div class="box" id="box2">2</div>
+        <div class="box" id="box3">Chat with us</div>
+        <div class="box" id="box4">4</div>
+    </div>
+</body>
+
+
+<title>Visibility and z-index</title>
+</head>
+<style>
+    .box{
+        height: 170px;
+        width: 170px;
+        border: 2px solid black;
+    }
+    #box1{
+        background-color: red;
+    }
+    #box2{
+        position: relative;
+        top: 45px;
+        background-color: rgb(0, 68, 255);
+        z-index: -1;
+    }
+    #box3{
+        position: relative;
+        top: 34px;
+        z-index: 1;
+        /* z-index will only work for position: absolute,relative,fixed and sticky */
+        /* will hide the element and its space */
+        /* display: none; */
+        /* will hide the element but show its empty space */
+       /* visibility: hidden; */
+        background-color: rgb(255, 251, 0);
+    }
+    #box4{
+        background-color: rgb(0, 255, 13);
+    }
+</style>
+<body>
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <div class="box" id="box3"></div>
+    <div class="box" id="box4"></div>
+</body>
+
+
+Flexbox
+
+<style>
+    .container{
+        border: 2px solid black;
+        height: 455px;
+        display: flex;
+        /* default flex-direction is row and no-wrap */
+        flex-direction: row; 
+        flex-wrap: wrap;
+        /* flex-flow: wrap row;  To give both at once use flex-flow */
+        justify-content: space-evenly;
+        align-items: center;
+        align-items: flex-end;
+        align-items: flex-start;
+        align-items: stretch;
+    }
+    .item{
+        background-color: tomato;
+        border: 2px solid yellow;
+        height: 200px;
+        width: 200px;
+        margin: 2px;
+        padding: 7px;
+    }
+    #item-1{
+        /* higher the order last it comes */
+        /* order: 2; */
+
+        /* flex-grow: 2;
+
+        flex-shrink: 3; */
+
+        /* flex-basis: 520px; */
+        /* when flex-direction is set to row it will affect width  */
+        /* when flex-direction is set to column it will affect height  */
+    }
+    #item-2{
+        /* order: 5; */
+        /* flex-grow: 2;
+        flex-shrink: 5; */
+    }
+    #item-3{
+        
+        /* flex-grow flex-shrink flex-basis */
+    }
+    #item-4{
+        /* align-self: center;
+        align-self: flex-start; */
+        /* align-self: flex-end; */
+    }
+    #item-5{}
+</style>
+<body>
+    <h1>Flexbox Tutorial</h1>
+    <div class="container">
+        <div class="item" id="item-1"><img src="https://py.processing.org/tutorials/pixels/imgs/tint1.jpg"alt="">🕊️</div>
+        <div class="item" id="item-2"><img src="https://py.processing.org/tutorials/pixels/imgs/tint1.jpg" alt=""></div>
+        <div class="item" id="item-3"><img src="https://py.processing.org/tutorials/pixels/imgs/tint1.jpg" alt=""></div>
+        <div class="item" id="item-4"><img src="https://py.processing.org/tutorials/pixels/imgs/tint1.jpg" alt=""></div>
+        <div class="item" id="item-5"><img src="https://py.processing.org/tutorials/pixels/imgs/tint1.jpg" alt=""></div>
+        <!-- <div class="item" id="item-6"><img src="https://py.processing.org/tutorials/pixels/imgs/tint1.jpg" alt=""></div> 🕊️ -->
+    </div>
+</body>
+
+
+
+Size Units
+<style>
+    html{
+        font-size: 25px;
+    }
+    .container{
+        font-size: 10px;
+        border: 2px solid red;
+        height: 100vh;
+        width: 100vw;
+    }
+    h1{
+        text-align: center;
+    }
+    #first{
+        font-size: 3em;
+        padding: 1em;
+    }
+    #second{
+        font-size: 3rem;
+        padding: 3rem;
+    }
+</style>
+<body>
+    <div class="container">
+        <h1 id="first">This is first heading.</h1>
+        <h1 id="second">This is second heading.</h1>
+        <h1 id="third">This is third heading.</h1>
+    </div>
+</body>
+
+
+Media Queries
+
+<style>
+    .box {
+        font-size: 50px;
+        text-align: center;
+        color: white;
+        background-color: pink;
+        display: none;
+    }
+
+    @media only screen and (max-width:320px) {
+        #box-1 {
+            display: block;
+            background-color: cyan;
+        }
+    }
+    @media only screen and (max-width:520px) and (min-width:321px) {
+        #box-2{
+            display: block;
+            background-color: brown;
+        }
+    }
+    @media only screen and (max-width:720px) and (min-width:521px){
+        #box-3 {
+            display: block;
+            background-color: khaki;
+        }
+    }
+    @media only screen and (min-width:721px) {
+        #box-4{
+            display: block;
+            background-color: yellow;
+            color: black;
+        }
+    }
+</style>
+
+<body>
+    <div class="box" id="box-1">I am a Mobile</div>
+    <div class="box" id="box-2">I am a Tablet</div>
+    <div class="box" id="box-3">I am a Desktop Computer</div>
+    <div class="box" id="box-4">I am a Widescreen Device</div>
+</body>
+
+
+
+<!-- More on Selectors -->
+<style>
+    h1{
+        background-color: red;
+        color: black;
+        text-align: center;
+    }
+
+    /* if p is contained by any li which is contained by any div */
+    /* div li p{
+        color: yellow;
+        background-color: green;
+        font-weight: bold;
+    } */
+
+    /* it affects direct child elment p only of div */ or /*if p is right inside div*/
+    /* div > p{
+        color: yellow;
+        background-color: green;
+        font-weight: bold;
+    } */
+
+    /* it affects only if p is next sibling of div or right after div*/
+    div + p {
+        color: black;
+        background-color: rebeccapurple;
+    }
+</style>
+<body>
+    <h1>This is more on Selectors</h1>
+    <div class="container">
+        <div class="row">
+            <ul><li><p>This is another paragraph</p></li></ul>
+            <p>This is a paragraph</p>
+        </div>
+        <p>This is a paragraph</p>
+    </div>
+    <p>This is a paragraph</p>
+</body>
+
+
+
+
+<!-- <title>Attribute and nth child pseudo selectors</title> -->
+
+<style>
+    .container {
+        display: block;
+        width: 233px;
+        margin: auto;
+    }
+
+    input {}
+
+    input[type=text] {
+        padding: 23px;
+        border: 2px solid red;
+
+    }
+
+    a[target] {
+        font-size: 34px;
+        color: palevioletred;
+    }
+
+    a[target=_self] {
+        font-size: 34px;
+        color: rgb(30, 47, 207);
+    }
+
+    input[type=email] {
+        color: khaki;
+        border: 2px solid red;
+    }
+
+    li:nth-child(3) {
+        color: cyan;
+    }
+
+    /* li:nth-child(2n+0) {
+        color: rgb(255, 0, 34);
+    } */
+/* 
+    li:nth-child(3n+3) {
+        color: rgb(0, 255, 76);
+    } */
+
+    /* odd child */
+    li:nth-child(odd) {
+        color: rgb(0, 255, 76);
+        background-color: yellow;
+    }
+
+    /* Even child */
+    li:nth-child(even) {
+        color: rgb(235, 11, 11);
+        background-color: rgb(0, 153, 255);
+    }
+</style>
+
+<body>
+    <div class="container">
+        <h1><a href="http://google.com" target="_blank">Go to Google</a></h1>
+        <h1><a href="http://facebook.com" target="_self">Go to Facebook</a></h1>
+        <form action="" class="form-group">
+            <input type="text" name="" placeholder="Enter your name">
+            <input type="password" name="" placeholder="Enter your password">
+            <input type="email" name="" placeholder="Enter your email">
+            <input type="submit" value="Submit">
+        </form>
+        <ul>
+            <li class="items" id="item-1">Item 1</li>
+            <li class="items" id="item-2">Item 2</li>
+            <li class="items" id="item-3">Item 3</li>
+            <li class="items" id="item-4">Item 4</li>
+            <li class="items" id="item-5">Item 5</li>
+            <li class="items" id="item-6">Item 6</li>
+            <li class="items" id="item-7">Item 7</li>
+            <li class="items" id="item-8">Item 8</li>
+            <li class="items" id="item-9">Item 9</li>
+            <li class="items" id="item-10">Item 10</li>
+            <li class="items" id="item-11">Item 11</li>
+            <li class="items" id="item-12">Item 12</li>
+        </ul>
+    </div>
+</body
+
+
+
+
+
+
+
+
+
+<!-- Before and after pseudo selectors (A Technique) -->
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+<style>
+    body {
+        background-color: black;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        font-family: "Oswald", sans-serif;
+    }
+    header::before{
+        content: "";
+        position: absolute;
+        background: url(the-sun-is-setting-over-the-ocean-on-a-cloudy-day.jpg) no-repeat center center/cover ;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        opacity: 0.9;
+    }
+
+    .navigation {
+        display: flex;
+        font-size: 20px;
+    }
+
+    li {
+        list-style: none;
+        padding:22px 25px;
+    }
+
+    section {
+        margin: 3px 123px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 218px;
+        justify-content: center;
+    }
+    /* section::after{
+        content:"this is a content"
+    } */
+
+     h1{
+        font-size: 4rem;
+     }
+     p{
+        text-align: center;
+     }
+</style>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item">Home</li>
+                <li class="item">About</li>
+                <li class="item">Services</li>
+                <li class="item">Contact us</li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1>Welcome to the coding world</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus laboriosam expedita quod accusantium
+            vel nulla vero neque numquam? Illo sunt placeat nostrum quia quidem nisi accusamus non esse aperiam
+            veritatis! Nesciunt explicabo quaerat consequatur?</p>
+    </section>
+</body>
+
+
+<!-- tut34 -->
+ <!-- Box Shadow and Text Shadow -->
+
+ <style>
+    .container{
+        display: flex;
+    }
+    .card{
+        padding: 20px 12px;
+        /* border: 2px solid red; */
+        margin: 23px 10px;
+        background-color: burlywood;
+        /* box-shadow: offset-x offset-y color; */
+        /* box-shadow: offset-x offset-y blur-radius color; */
+        /* box-shadow: offset-x offset-y blur-radius spread-radius color; */
+        /* box-shadow: 6px 5px green; */
+        /* box-shadow: 4px -3px 9px green; */
+        /* box-shadow: 4px -3px 9px 10px rgb(149, 235, 149,0.5); */
+
+        /* box-shadow: inset -3px 82px  green; */
+        box-shadow: 3px 5px green, 5px 10px red;
+    }
+    .card h1{
+        /* text-shadow: 2px 2px  white; */
+        /* text-shadow: 2px 2px 3px white; */
+        text-shadow: -2px -2px 3px white;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="card" id="card-1">
+            <h1>This is C++ course </h1>
+            <p>I have started C++ course which does not mean that i will stop this course. We will continue this course to completion. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur ipsam aut, sint dolorum beatae, nisi optio tempore sequi nam voluptatum error consectetur. Deleniti corporis eaque excepturi minus doloribus asperiores commodi. Incidunt velit accusamus libero.</p>
+        </div>
+        <div class="card" id="card-2">
+            <h1>This is HTML course</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur ipsam aut, sint dolorum beatae, nisi optio tempore sequi nam voluptatum error consectetur. Deleniti corporis eaque excepturi minus doloribus asperiores commodi. Incidunt velit accusamus libero.</p>
+        </div>
+        <div class="card" id="card-3">
+            <h1>This is python course</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur ipsam aut, sint dolorum beatae, nisi optio tempore sequi nam voluptatum error consectetur. Deleniti corporis eaque excepturi minus doloribus asperiores commodi. Incidunt velit accusamus libero.</p>
+        </div>
+    </div>
+</body>
+
+
+<!-- tut35 -->
+<!-- CSS Variables/Custom Properties -->
+<style>
+    :root{
+        --primary-color:blue;
+        --danger-color:rgb(255, 0, 106);
+        --maxw:333px;
+    }
+    .box{
+        
+        width: 200px;
+        height: 200px;
+        background-color: var(--primary-color);
+        border: 2px solid red;
+        box-shadow: 3px 3px var(--primary-color);
+        margin: 4px 9px;
+    }
+    /* only local variable is applied or give root variable for global access */
+    .container{
+        /* --box-color:violet; */
+        display: flex;
+        background-color: var(--danger-color);
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        width: var(--maxw);
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="box">Box-1</div>
+        <div class="box">Box-2 </div>
+        <div class="box">Box-3</div>
+    </div>
+</body>
+
+
+
+
+<!-- tut36 -->
+<!-- Keyframes and Animations -->
+<style>
+    .container {
+        background-color: yellow;
+    }
+
+    /* .box{
+        background: green;
+        width: 250px;
+        height: 250px;
+        position: relative;
+        animation-name: Sangam1;
+        animation-duration: 0.7s;
+        animation-iteration-count: 3;
+        animation-fill-mode: alternate;
+        animation-timing-function: ease-in-out;
+        /* animation-delay: 3s; */
+         /* animation-direction: alternate-reverse;
+    } */
+
+    .box {
+        background: green;
+        width: 250px;
+        height: 250px;
+        position: relative;
+        animation-name: Sangam2;
+        animation-duration: 8s;
+        animation-iteration-count: 3;
+        /* animation-fill-mode: alternate;
+        animation-timing-function: ease-in-out;
+        /* animation-delay: 3s; */
+        /* animation-direction: alternate-reverse; */
+
+        /* Above properties can be set by shorthand property of animation */
+        /* animation: animaation-name animation-duration animation-timing-function animation-delay animation-iteration-count animation-direction; */
+        animation: Sangam2 8s ease-in-out 3s 12 forwards;
+    }
+
+    @keyframes Sangam2 {
+        0%{
+            top: 0px;
+            left: 250px;
+        }
+        25%{
+            top: 250px;
+            left: 250px;
+        }
+        75%{
+            top: 250px;
+            left: 0px;
+        }
+        100%{
+            top: 0px;
+            left: 0px;
+        }
+    }
+
+    @keyframes Sangam1 {
+        from {
+            width: 200px;
+
+        }
+
+        to {
+            width: 500px;
+
+        }
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="box">
+            This is box
+        </div>
+    </div>
+</body>
+
+
+<!-- tut37 -->
+ <!-- CSS Transitions -->
+ <style>
+    body{
+        background-color: black;
+    }
+ #box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        /* transition-property: background-color;
+        transition-duration: 2s;
+        transition-timing-function: ease-in-out;
+        transition-delay: 3s; */
+        /* Transition short hand property in one line */
+        /* transition: background-color 2s ease-in-out 3s; */
+        transition: all 2s ease-in-out .7s;
+        /*Transitioin property applies on continuos value not binary values it works on margin opacity height,width,etc*/
+    }
+    #box:hover{
+        background-color: white;
+        height: 400px;
+        width: 400px;
+        border-radius: 45px;
+        font-size: 50px;
+    }
+</style>
+<body>
+    <h3>This is a heading</h3>
+    <div class="container">
+        <div id="box">
+           <p> This is a box</p>
+        </div>
+    </div>
+</body>
+
+<!-- tut37 -->
+ <!-- CSS Transform -->
+ <style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .container{
+        height: 80vh;
+        background-color: burlywood;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: brown;
+        width: 200px;
+        height: 200px;
+        border: 2px solid black;
+        border-radius: 8px;
+        transition: all 0.5s ease-in-out;
+    }
+    .box:hover{
+        /* transform: rotate(360deg); */
+        /* transform: skew(40deg); */
+        /* transform: scale(2); */
+        /* transform: translateX(123px); */
+        /* transform: translateY(123px); */
+        transform: translate(123px, 123px);
+
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="box">
+            This is box
+        </div>
+    </div>
+</body>

@@ -1,0 +1,108 @@
+/* Navigation Bar */
+#navbar{
+    flex-direction: column;
+    height: 100px;
+    overflow: hidden;
+}
+#navbar img{
+    padding: unset;
+}
+#navbar ul li a{
+    font-size: 1.5rem;
+}
+
+/* Home Section */
+
+#home::before{
+    height: 700px;
+}
+
+
+/* Catalog Section */
+
+#Catalog::before {
+    height: 548px;
+}
+#Catalog{
+    height: 412px;
+}
+
+/* Books Section */
+#books{
+    overflow: hidden;
+}
+
+/* About Section */
+
+
+/* Sign In Section */
+#SignIn::before{
+    height:772px;
+}
+
+
+#SignIn form {
+    width: 80%;
+}
+
+
+.position1 {
+    position: absolute;
+    margin-left: 100px;
+}
+.position {
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 10px;
+    padding-left: 16px;
+}
+
+/* Utility Section */
+.--h-primary {
+    font-family: "Raleway", sans-serif;
+    font-size: 2.5rem;
+    padding: 12px;
+}
+
+@media only screen and (max-width:748px) {
+    
+    #navbar ul li a {
+        font-size: 1.0rem;
+        padding: 8px;
+    }
+
+    #home{
+        margin: -33px 14px;
+    }
+    #home::before {
+        height: 602px;
+    }
+
+    #Catalog ul li a {
+        margin: 3px 15px;
+        padding: 0px 20px;
+    }
+    #Catalog h1 {
+        margin-bottom: 0px;
+    }
+    
+    #about::before {
+        height: 353px;
+    }
+    #about{
+        height: 353px;
+    }
+    #about h1{
+        margin-bottom: 15px;
+        font-size: 2.5rem;
+    }
+    #about p{
+        font-size: 1rem;
+    }
+    #SignIn::before{
+        height: 773px;
+    }
+    #SignIn form {
+        width: 80%;
+    }
+}
